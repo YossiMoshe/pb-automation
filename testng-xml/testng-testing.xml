@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testing" time-out="600000" preserve-order="true" parallel="methods" thread-count="8" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.infra.test_strategy.annotations.TestsDisablingAccordingToEnvListener" />
+        <listener class-name="com.infra.test_strategy.TestRetryAnalyzerListener" />
+    </listeners>
+
+
+    <!--*************************************** All Proxy Tests ***************************************-->
+    <test name="all-Proxy-tests"  time-out="700000" parallel="methods" thread-count="1">
+        <groups>
+            <run>
+                <include name="capability.proxy"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.automation_tests.ui.stream.PlayerConfigurationTests">
+                <methods>
+                    <include name="requestQueryParamsAccordingToPlayerSizeTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+

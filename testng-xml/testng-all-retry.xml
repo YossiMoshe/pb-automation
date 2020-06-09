@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Tests" time-out="600000" parallel="methods" thread-count="3" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.infra.test_strategy.annotations.TestsDisablingAccordingToEnvListener" />
+        <listener class-name="com.infra.test_strategy.TestRetryAnalyzerListener" />
+    </listeners>
+    <!--*************************************** All-Browser-Tests ***************************************-->
+
+    <!--*************************************** All Non-Grouped Tests ***************************************-->
+    <test name="all-non-grouped-tests">
+        <classes>
+            <class name="com.unit.infra.healthcheck.tests.RetryTests"/>
+        </classes>
+    </test>
+</suite>

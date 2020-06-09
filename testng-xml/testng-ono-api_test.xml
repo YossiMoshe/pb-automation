@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Tests" time-out="600000" parallel="methods" thread-count="13"  configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.infra.test_strategy.annotations.TestsDisablingAccordingToEnvListener" />
+        <listener class-name="com.infra.test_strategy.TestRetryAnalyzerListener" />
+    </listeners>
+
+    <test name="api-tests">
+        <packages>
+            <package name="com.automation_tests.api.*"/>
+        </packages>
+    </test>
+</suite>
+

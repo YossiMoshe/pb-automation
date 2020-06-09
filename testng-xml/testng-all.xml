@@ -1,0 +1,189 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Tests" time-out="600000" preserve-order="true" parallel="methods" thread-count="8" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.infra.test_strategy.annotations.TestsDisablingAccordingToEnvListener" />
+        <listener class-name="com.infra.test_strategy.TestRetryAnalyzerListener" />
+    </listeners>
+    <!--*************************************** API-Tests ***************************************-->
+    <test name="api-tests">
+        <groups>
+            <run>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.api.*"/>
+        </packages>
+    </test>
+    <!--*************************************** All-Browser-Tests ***************************************-->
+    <!--*************************************** Firefox ***************************************-->
+    <test name="all-FIREFOX-tests" parallel="methods" thread-count="3">
+        <parameter name="browser" value="FIREFOX"/>
+        <groups>
+            <run>
+                <include name="browser.firefox"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+
+    <!--***************************************chrome ***************************************-->
+    <test name="all-CHROME-tests" parallel="methods" thread-count="8">
+        <parameter name="browser" value="CHROME"/>
+        <groups>
+            <run>
+                <include name="browser.chrome"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Safari ***************************************-->
+    <test name="all-SAFARI-tests" parallel="methods" thread-count="2">
+        <parameter name="browser" value="SAFARI"/>
+        <groups>
+            <run>
+                <include name="browser.safari"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+
+    <!--*************************************** IE ***************************************-->
+<!--    <test name="all-IE-tests">
+        <parameter name="browser" value="IE"/>
+        <groups>
+            <run>
+                <include name="browser.ie"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>-->
+    <!--*************************************** EDGE ***************************************-->
+    <test name="all-EDGE-tests"  thread-count="2">
+        <parameter name="browser" value="EDGE"/>
+        <groups>
+            <run>
+                <include name="browser.edge"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+    <!-- *************************************** All-Mobile-Tests ***************************************-->
+    <!--*************************************** iPhone 6 ***************************************-->
+    <test name="all-IPHONE X-tests" parallel="methods" thread-count="8">
+        <parameter name="browser" value="IPHONE_X"/>
+        <groups>
+            <run>
+                <include name="mobile.iphone_x"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Pixel 2 XL ***************************************-->
+    <test name="all-Pixel 2 XL-tests" parallel="methods" thread-count="8">
+        <!--<parameter name="browser" value="PIXEL_2_XL"/>-->
+        <groups>
+            <run>
+                <include name="mobile.pixel_2_xl"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+    <!--*************************************** iPad ***************************************-->
+    <test name="all-iPad-tests" parallel="methods" thread-count="8">
+        <parameter name="browser" value="IPAD"/>
+        <groups>
+            <run>
+                <include name="mobile.ipad"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Nexus 7 ***************************************-->
+    <test name="all-Nexus7-tests" parallel="methods" thread-count="8">
+        <parameter name="browser" value="NEXUS_7"/>
+        <groups>
+            <run>
+                <include name="mobile.nexus_7"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Performance Logging Tests ***************************************-->
+<!--    <test name="all-performance_log-capture-tests">
+        <groups>
+            <run>
+                <include name="capability.performance_log"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>-->
+    <!--*************************************** All Proxy Tests ***************************************-->
+    <test name="all-Proxy-tests"  time-out="700000" parallel="methods" thread-count="1">
+        <groups>
+            <run>
+                <include name="capability.proxy"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+    <!--*************************************** All Non-Grouped Tests ***************************************-->
+    <test name="all-non-grouped-tests" parallel="methods" thread-count="8">
+        <parameter name="browser" value="CHROME"/>
+        <groups>
+            <run>
+                <exclude name="capability.proxy"/>
+                <exclude name="capability.performance_log"/>
+                <exclude name="mobile.*"/>
+                <exclude name="browser.*"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.ui.*"/>
+        </packages>
+    </test>
+</suite>
+

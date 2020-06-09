@@ -1,0 +1,194 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Strategy Healthcheck tests" time-out="6000000" parallel="methods" configfailurepolicy="continue">
+    <test name="multi-group-tests">
+        <groups>
+            <run>
+                <include name="browser.chrome"/>
+                <include name="browser.firefox"/>
+                <include name="browser.edge"/>
+                <include name="browser.ie"/>
+                <include name="browser.safari"/>
+                <include name="browser.all"/>
+                <include name="mobile.iphone_x"/>
+                <include name="mobile.pixel_2_xl"/>
+                <include name="mobile.ipad"/>
+                <include name="mobile.nexus_7"/>
+                <include name="mobile.all"/>
+                <include name="capability.performance_log"/>
+                <include name="capability.proxy"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>
+        </classes>
+    </test>
+     <!--*************************************** All-Browser-Tests ***************************************-->
+     <!--***************************************chrome ***************************************-->
+    <!--<test name="all-CHROME-tests">-->
+        <!--<parameter name="browser" value="CHROME"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="browser.chrome"/>-->
+                <!--<include name="browser.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** Safari ***************************************&ndash;&gt;-->
+    <!--<test name="all-SAFARI-tests">-->
+        <!--<parameter name="browser" value="SAFARI"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="browser.safari"/>-->
+                <!--<include name="browser.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** Firefox ***************************************&ndash;&gt;-->
+    <!--<test name="all-FIREFOX-tests">-->
+        <!--<parameter name="browser" value="FIREFOX"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="browser.firefox"/>-->
+                <!--<include name="browser.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** IE ***************************************&ndash;&gt;-->
+    <!--<test name="all-IE-tests">-->
+        <!--<parameter name="browser" value="IE"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="browser.ie"/>-->
+                <!--<include name="browser.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** EDGE ***************************************&ndash;&gt;-->
+    <!--<test name="all-EDGE-tests">-->
+        <!--<parameter name="browser" value="EDGE"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="browser.edge"/>-->
+                <!--<include name="browser.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash; *************************************** All-Mobile-Tests ***************************************&ndash;&gt;-->
+    <!--&lt;!&ndash;*************************************** iPhone 6 ***************************************&ndash;&gt;-->
+    <!--<test name="all-IPHONE6-tests">-->
+        <!--<parameter name="browser" value="IPHONE_6"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="mobile.iphone_6"/>-->
+                <!--<include name="mobile.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** Pixel 2 XL ***************************************&ndash;&gt;-->
+    <!--<test name="all-Pixel 2 XL-tests">-->
+        <!--&lt;!&ndash;<parameter name="browser" value="PIXEL_2_XL"/>&ndash;&gt;-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="mobile.pixel_2_xl"/>-->
+                <!--<include name="mobile.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** iPad ***************************************&ndash;&gt;-->
+    <!--<test name="all-iPad-tests">-->
+        <!--<parameter name="browser" value="IPAD"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="mobile.ipad"/>-->
+                <!--<include name="mobile.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** Nexus 7 ***************************************&ndash;&gt;-->
+    <!--<test name="all-Nexus7-tests">-->
+        <!--<parameter name="browser" value="NEXUS_7"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="mobile.nexus_7"/>-->
+                <!--<include name="mobile.all"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** Performance Logging Tests ***************************************&ndash;&gt;-->
+    <!--<test name="all-performance_log-capture-tests">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="capability.performance_log"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** All Proxy Tests ***************************************&ndash;&gt;-->
+    <!--<test name="all-Proxy-tests">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="capability.proxy"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+        <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--&lt;!&ndash;*************************************** All Non-Grouped Tests ***************************************&ndash;&gt;-->
+    <!--<test name="all-non-grouped-tests">-->
+        <!--<parameter name="browser" value="CHROME"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<exclude name="capability.performance_log"/>-->
+                <!--<exclude name="mobile.*"/>-->
+                <!--<exclude name="browser.*"/>-->
+                <!--<exclude name="bug.*"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.unit.infra.healthcheck.tests.test_strategy.TestStrategyHealthCheckTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>
+

@@ -1,0 +1,90 @@
+version: '3.2'
+
+services:
+  # Selenium Hub
+  selenium:
+    image: selenium/hub #:3.141.59-mercury
+    container_name: selenium
+    ports:
+      - "4444:4444"
+    environment:
+      - GRID_BROWSER_TIMEOUT=34000
+      - GRID_TIMEOUT=36000
+
+  # BrowserMob Proxy
+  proxy:
+    image: raul72/browsermob-proxy
+    depends_on:
+      - selenium
+    ports:
+      - "8550:8550"
+    environment:
+      - BMP_PORT=8550
+      - BMP_PROXY_PORT_RANGE=8081-8581
+
+  # Selenium Nodes
+  chrome_1:
+    image: selenium/node-chrome-debug #:3.141.59-mercury
+    volumes:
+      - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    ports:
+      - "5901:5900"
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+      - VNC_NO_PASSWORD=1
+  chrome_2:
+    image: selenium/node-chrome-debug #:3.141.59-mercury
+    volumes:
+      - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    ports:
+      - "5902:5900"
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+      - VNC_NO_PASSWORD=1
+  chrome_3:
+    image: selenium/node-chrome-debug #:3.141.59-mercury
+    volumes:
+      - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    ports:
+      - "5903:5900"
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+      - VNC_NO_PASSWORD=1
+  chrome_4:
+    image: selenium/node-chrome-debug #:3.141.59-mercury
+    volumes:
+      - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    ports:
+      - "5904:5900"
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+      - VNC_NO_PASSWORD=1
+  firefox_1:
+    image: selenium/node-firefox-debug #:3.141.59-mercury
+    volumes:
+      - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    ports:
+      - "5905:5900"
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+      - VNC_NO_PASSWORD=1

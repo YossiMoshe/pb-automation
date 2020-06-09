@@ -1,0 +1,52 @@
+
+node('spot-automation-linux'){
+	try {
+    stage('Checkout') {
+      checkout scm
+      sh "echo 'pb-automation' > pb-service-name"            
+    }
+    
+    stage('Prebuild'){
+      sh "aws ecr get-login --no-include-email | bash"
+      sh "echo \"TEST_ENV=${TEST_ENV}\" > .env" 
+      sh "echo \"TEST_SUITE=${TEST_SUITE}\" > .env"
+      sh "cat .env"
+    }
+
+    stage('Test'){
+      currentBuild.description = "Suite: ${TEST_SUITE}, Env: ${TEST_ENV}"
+      wrap([$class: 'AnsiColorBuildWrapper', 'colorMapName': 'XTerm']) {
+        sh "docker-compose -f docker-compose.yml up --abort-on-container-exit" 
+      }  
+      sh "ls -l ./deployment/reports"
+    }
+
+    stage('Publish'){
+      publishHTML([allowMissing: true, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './deployment/reports/difido/current/', reportFiles: 'index.html', reportName: 'Testing Report', reportTitles: ''])
+      addReportLink()
+    }
+    
+  } finally {
+    stage('Cleanup'){
+      sh "docker-compose -f docker-compose.yml down"
+    }
+  }
+
+}
+
+def addReportLink() {
+    def reportLinkFile = "./deployment/reports/report-link"
+    def fileExists = fileExists reportLinkFile
+
+    if (fileExists) {
+        def reportLink = readFile(reportLinkFile)
+        addReportLinkToBuildDescription(reportLink)
+    } else {
+        sh "Report link file does not exist - could not create report link."
+    }
+}
+
+def addReportLinkToBuildDescription(String link) {
+    def report_link_msg = "Click here to see the full report"
+    currentBuild.description += "<br/><div class='pane desc indent-multiline zws-inserted'><a href='${link}'>${report_link_msg}</a></div>"
+}

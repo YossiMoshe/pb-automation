@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Default",
+    "filename": "default.xml",
+    "parameter": "default"
+  },
+  {
+    "name": "All",
+    "filename": "testng-all.xml",
+    "parameter": "all"
+  },
+  {
+    "name": "Analytics",
+    "filename": "testng-analytics.xml",
+    "parameter": "analytics"
+  },
+  {
+    "name": "Authentication",
+    "filename": "testng-authentication.xml",
+    "parameter": "authentication"
+  },
+  {
+    "name": "Editor",
+    "filename": "testng-editor.xml",
+    "parameter": "editor"
+  },
+  {
+    "name": "Events",
+    "filename": "testng-events.xml",
+    "parameter": "events"
+  },
+  {
+    "name": "Plans",
+    "filename": "testng-plans.xml",
+    "parameter": "plans"
+  },
+  {
+    "name": "Platform",
+    "filename": "testng-platform.xml",
+    "parameter": "platform"
+  },
+  {
+    "name": "Stream",
+    "filename": "testng-stream.xml",
+    "parameter": "stream"
+  },
+  {
+    "name": "Stream-Sanity",
+    "filename": "testng-stream-sanity.xml",
+    "parameter": "stream-sanity"
+  },
+  {
+    "name": "Viewer",
+    "filename": "testng-viewer.xml",
+    "parameter": "viewer"
+  },
+  {
+    "name": "Monetization",
+    "filename": "testng-monetization.xml",
+    "parameter": "monetization"
+  },
+  {
+    "name": "O&O Monetization",
+    "filename": "testng-ono-monetization.xml",
+    "parameter": "ono-monetization"
+  },
+  {
+    "name": "Health Check",
+    "filename": "testng-health.xml",
+    "parameter": "health_check"
+  },
+  {
+    "name": "Testing",
+    "filename": "testng-testing.xml",
+    "parameter": "testing"
+  }
+]
+

@@ -1,0 +1,209 @@
+version: '2'
+
+services:
+
+ # Automation App
+  pb-automation:
+    image: 475376316304.dkr.ecr.us-east-1.amazonaws.com/pb-automation:latest
+    depends_on:
+    - selenium
+    - proxy
+    command:
+      - ${TEST_ENV}
+      - selenium
+      - ${TEST_SUITE}
+    volumes:
+      - "./deployment/reports/:/opt/app/test-output/"
+
+  # Selenium Hub
+  selenium:
+    image: selenium/hub #3.141.59-mercury
+    container_name: selenium
+#    ports:
+#     - "4444:4444"
+
+  # BrowserMob Proxy
+  proxy:
+    image: raul72/browsermob-proxy
+    depends_on:
+      - selenium
+#    ports:
+#      - "8550:8550"
+    environment:
+      - BMP_PORT=8550
+      - BMP_PROXY_PORT_RANGE=8551-9551
+
+  # Selenium Nodes
+  chrome_1:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+  chrome_2:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+  chrome_3:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+  chrome_4:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+    - selenium
+    - proxy
+    environment:
+    - HUB_HOST=selenium
+    - PROXY_HOST=proxy
+  chrome_5:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+    - selenium
+    - proxy
+    environment:
+    - HUB_HOST=selenium
+    - PROXY_HOST=proxy
+  chrome_6:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+    - selenium
+    - proxy
+    environment:
+    - HUB_HOST=selenium
+    - PROXY_HOST=proxy
+  chrome_7:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+    - selenium
+    - proxy
+    environment:
+    - HUB_HOST=selenium
+    - PROXY_HOST=proxy
+  chrome_8:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+    - selenium
+    - proxy
+    environment:
+    - HUB_HOST=selenium
+    - PROXY_HOST=proxy
+  chrome_9:
+    image: selenium/node-chrome #:3.141.59-mercury
+    volumes:
+    - "/dev/shm:/dev/shm"
+    depends_on:
+    - selenium
+    - proxy
+    environment:
+    - HUB_HOST=selenium
+    - PROXY_HOST=proxy
+#  chrome_10:
+#    image: selenium/node-chrome #:3.141.59-mercury
+#    volumes:
+#    - "/dev/shm:/dev/shm"
+#    depends_on:
+#    - selenium
+#    - proxy
+#    environment:
+#    - HUB_HOST=selenium
+#    - PROXY_HOST=proxy
+#  chrome_11:
+#    image: selenium/node-chrome #:3.141.59-mercury
+#    volumes:
+#    - "/dev/shm:/dev/shm"
+#    depends_on:
+#    - selenium
+#    - proxy
+#    environment:
+#    - HUB_HOST=selenium
+#    - PROXY_HOST=proxy
+#  chrome_12:
+#    image: selenium/node-chrome #:3.141.59-mercury
+#    volumes:
+#    - "/dev/shm:/dev/shm"
+#    depends_on:
+#    - selenium
+#    - proxy
+#    environment:
+#    - HUB_HOST=selenium
+#    - PROXY_HOST=proxy
+#  chrome_13:
+#    image: selenium/node-chrome #:3.141.59-mercury
+#    volumes:
+#    - "/dev/shm:/dev/shm"
+#    depends_on:
+#    - selenium
+#    - proxy
+#    environment:
+#    - HUB_HOST=selenium
+#    - PROXY_HOST=proxy
+#  chrome_14:
+#    image: selenium/node-chrome #:3.141.59-mercury
+#    volumes:
+#    - "/dev/shm:/dev/shm"
+#    depends_on:
+#    - selenium
+#    - proxy
+#    environment:
+#    - HUB_HOST=selenium
+#    - PROXY_HOST=proxy
+  firefoxi_1:
+    image: selenium/node-firefox #:3.141.59-mercury
+    volumes:
+      - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+  firefox_2:
+    image: selenium/node-firefox #:3.141.59-mercury
+    volumes:
+      - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+  firefox_3:
+    image: selenium/node-firefox #:3.141.59-mercury
+    volumes:
+      - "/dev/shm:/dev/shm"
+    depends_on:
+      - selenium
+      - proxy
+    environment:
+      - HUB_HOST=selenium
+      - PROXY_HOST=proxy
+
+
+

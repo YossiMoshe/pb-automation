@@ -1,0 +1,21 @@
+FROM openjdk:8-jre-alpine
+
+RUN apk add --update xvfb \
+                     libxtst \
+                     libxrender 
+
+ENV WORKDIR=/opt/app
+
+RUN mkdir -p $WORKDIR
+
+ADD . $WORKDIR
+
+COPY entrypoint.sh /
+
+WORKDIR $WORKDIR
+
+RUN chmod 744 /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+
+CMD ["/bin/sh"]

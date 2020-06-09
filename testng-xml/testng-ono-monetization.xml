@@ -1,0 +1,177 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ONO - Monetization" time-out="600000" parallel="methods" thread-count="13" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.infra.test_strategy.annotations.TestsDisablingAccordingToEnvListener" />
+        <listener class-name="com.infra.test_strategy.TestRetryAnalyzerListener" />
+    </listeners>
+    <!--*************************************** All-Browser-Tests ***************************************-->
+    <!--***************************************chrome ***************************************-->
+    <test name="all-CHROME-tests">
+        <parameter name="browser" value="CHROME"/>
+        <groups>
+            <run>
+                <include name="browser.chrome"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Safari ***************************************-->
+    <test name="all-SAFARI-tests" thread-count="1">
+        <parameter name="browser" value="SAFARI"/>
+        <groups>
+            <run>
+                <include name="browser.safari"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Firefox ***************************************-->
+    <test name="all-FIREFOX-tests">
+        <parameter name="browser" value="FIREFOX"/>
+        <groups>
+            <run>
+                <include name="browser.firefox"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** IE ***************************************-->
+<!--    <test name="all-IE-tests" thread-count="1">
+        <parameter name="browser" value="IE"/>
+        <groups>
+            <run>
+                <include name="browser.ie"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>-->
+    <!--*************************************** EDGE ***************************************-->
+    <test name="all-EDGE-tests" thread-count="1">
+        <parameter name="browser" value="EDGE"/>
+        <groups>
+            <run>
+                <include name="browser.edge"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!-- *************************************** All-Mobile-Tests ***************************************-->
+    <!--*************************************** iPhone 6 ***************************************-->
+    <test name="all-IPHONE X-tests">
+        <parameter name="browser" value="IPHONE_X"/>
+        <groups>
+            <run>
+                <include name="mobile.iphone_x"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Pixel 2 XL ***************************************-->
+    <test name="all-Pixel 2 XL-tests">
+        <!--<parameter name="browser" value="PIXEL_2_XL"/>-->
+        <groups>
+            <run>
+                <include name="mobile.pixel_2_xl"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** iPad ***************************************-->
+    <test name="all-iPad-tests">
+        <parameter name="browser" value="IPAD"/>
+        <groups>
+            <run>
+                <include name="mobile.ipad"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Nexus 7 ***************************************-->
+    <test name="all-Nexus7-tests">
+        <parameter name="browser" value="NEXUS_7"/>
+        <groups>
+            <run>
+                <include name="mobile.nexus_7"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Performance Logging Tests ***************************************-->
+    <!--<test name="all-performance_log-capture-tests">-->
+    <!--<groups>-->
+    <!--<run>-->
+    <!--<include name="capability.performance_log"/>-->
+    <!--<exclude name="bug.*"/>-->
+    <!--</run>-->
+    <!--</groups>-->
+    <!--<packages>-->
+    <!--<package name="com.automation_tests.production.ono.monetization.*"/>-->
+    <!--</packages>-->
+    <!--</test>-->
+    <!--*************************************** All Proxy Tests ***************************************-->
+    <test name="all-Proxy-tests">
+        <groups>
+            <run>
+                <include name="capability.proxy"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** All Non-Grouped Tests ***************************************-->
+    <test name="all-non-grouped-tests">
+        <parameter name="browser" value="CHROME"/>
+        <groups>
+            <run>
+                <exclude name="capability.performance_log"/>
+                <exclude name="capability.proxy"/>
+                <exclude name="mobile.*"/>
+                <exclude name="browser.*"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+</suite>
+
+

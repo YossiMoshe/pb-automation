@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ONO - Monetization - Sanity"  time-out="600000" parallel="methods" thread-count="13"  configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.infra.test_strategy.annotations.TestsDisablingAccordingToEnvListener" />
+        <listener class-name="com.infra.test_strategy.TestRetryAnalyzerListener" />
+    </listeners>
+    <!--*************************************** All-Browser-Tests ***************************************-->
+    <!--***************************************chrome ***************************************-->
+    <test name="all-CHROME-tests">
+        <parameter name="browser" value="CHROME"/>
+        <groups>
+            <run>
+                <include name="browser.chrome"/>
+                <include name="browser.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--&lt;!&ndash; *************************************** All-Mobile-Tests ***************************************&ndash;&gt;-->
+    <!--*************************************** iPhone X ***************************************-->
+    <test name="all-IPHONE X-tests">
+        <parameter name="browser" value="IPHONE_X"/>
+        <groups>
+            <run>
+                <include name="mobile.iphone_x"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+    <!--*************************************** Pixel 2 XL ***************************************-->
+    <test name="all-Pixel 2 XL-tests">
+        <!--<parameter name="browser" value="PIXEL_2_XL"/>-->
+        <groups>
+            <run>
+                <include name="mobile.pixel_2_xl"/>
+                <include name="mobile.all"/>
+                <exclude name="bug.*"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.automation_tests.production.ono.monetization.*"/>
+        </packages>
+    </test>
+</suite>
+
+

@@ -1,0 +1,15 @@
+FROM maven:3.5.4-jdk-8-alpine
+
+ENV WORKDIR=/opt/pb-automation/
+
+RUN mkdir -p $WORKDIR
+
+ADD . $WORKDIR
+
+WORKDIR $WORKDIR
+
+#RUN mvn test
+
+VOLUME $WORKDIR/dist
+
+CMD mvn package -DskipTests
