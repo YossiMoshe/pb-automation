@@ -1,0 +1,66 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user":"techadmin5",
+  "key":"WRCWRxb4RvZ49Nzbzze4",
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "javascriptEnabled": true,
+    "idleTimeout": 300,
+    "browserstack.selenium_version": "3.14.0"
+  },
+
+  "environments": {
+    "chrome": {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "Chrome",
+      "resolution": "1920x1080",
+      "browserstack.local": "false",
+      "browser_version": "",
+      "browserstack.console":"errors"
+    },
+    "edge": {
+      "pageLoadStrategy": "none",
+      "browser": "Edge",
+      "os": "Windows",
+      "os_version": "10",
+      "resolution": "1920x1080",
+      "browser_version": "",
+      "browserstack.edge.enablePopups": true,
+      "browserstack.console":"errors"
+    },
+    "firefox": {
+      "pageLoadStrategy": "none",
+      "browser": "Firefox",
+      "os": "Windows",
+      "os_version": "10",
+      "resolution": "1920x1080",
+      "browser_version": "",
+      "browserstack.use_w3c": true,
+      "browserstack.firefox.enablePopups": true,
+      "browserstack.console":"errors"
+    },
+    "ie": {
+      "pageLoadStrategy": "none",
+      "browser": "IE",
+      "os": "Windows",
+      "os_version": "10",
+      "resolution": "1920x1080",
+      "browser_version": "",
+      "browserstack.ie.enablePopups": true,
+      "browserstack.console":"errors"
+    },
+    "safari": {
+      "pageLoadStrategy": "none",
+      "browser": "Safari",
+      "browser_version": "11",
+      "resolution": "1920x1080",
+      "browserstack.safari.enablePopups": true,
+      "browserstack.safari.driver": 2.48,
+      "os": "",
+      "os_version": "",
+      "browserstack.console":"errors"
+    }
+  }
+}

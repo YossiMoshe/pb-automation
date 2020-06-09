@@ -1,0 +1,28 @@
+{
+  "desktop": {
+    "defaultId": {
+      "default": "f7c16b9e-b9dc-4837-a8d0-344a25a1df77",
+      "stg": "f7c16b9e-b9dc-4837-a8d0-344a25a1df77",
+      "prd": "6414688d-7990-4b9f-b10e-76edad7de40d"
+    },
+    "utm_source": {
+      "default": "doesntMatter"
+    },
+    "utm_medium": {
+      "default": "automation-test-01"
+    },
+    "utm_medium_id": {
+      "default": "84fadacd-bcbb-4eee-9851-83967a9c16b9",
+      "stg": "84fadacd-bcbb-4eee-9851-83967a9c16b9",
+      "prd": "84fadacd-bcbb-4eee-9851-83967a9c16b9"
+    },
+    "utm_medium_02": {
+      "default": "automation-test-02"
+    },
+    "utm_medium_02_id": {
+      "default": "9be2f197-0cb8-4027-a6b2-8c38aba470f9",
+      "stg": "9be2f197-0cb8-4027-a6b2-8c38aba470f9",
+      "prd": "9be2f197-0cb8-4027-a6b2-8c38aba470f9"
+    }
+  }
+}

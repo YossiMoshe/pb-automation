@@ -1,0 +1,32 @@
+{
+  "PbAdmin_Username": {
+    "default": "hanan.avramovich+107@playbuzz.com",
+    "prd": "eran.amir+555@playbuzz.com"
+  },
+  "PbAdmin_Password": {
+    "default": "Password1!",
+    "prd": "666beast"
+  },
+  "PlaybuzzDirectCredentialsPreview_Username": {
+    "default": "alexpreview39@gmail.com"
+  },
+  "PlaybuzzDirectCredentialsPreview_Password": {
+    "default": "1qazxsw2",
+    "prd": "preview12"
+  },
+  "PlaybuzzRegular_Username": {
+    "default": "eran.amir+23@playbuzz.com",
+    "prd": "eran.amir+79@playbuzz.com"
+  },
+  "PlaybuzzRegular_Password": {
+    "default": "a123456a",
+    "prd": "55555abc"
+  },
+  "PBForReset_Username": {
+    "default": "playbuzzAutomation+515@gmail.com",
+    "prd": "playbuzzAutomation+515@gmail.com"
+  },
+  "DummyUserName": {
+    "default": "dummy_dumm@gmail.com"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "stg-core-poll": {
+    "hostname":"stg-core-rds.chtl0xl7h64i.us-east-1.rds.amazonaws.com",
+    "port": "3306",
+    "dbName": "poll",
+    "userName": "automation-core-stg",
+    "password": "H$/dLmhX]j2M"
+
+  }
+}

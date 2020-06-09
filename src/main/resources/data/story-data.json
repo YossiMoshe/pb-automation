@@ -1,0 +1,155 @@
+{
+  "TriviaStory": {
+    "default": "http://stg-embed.ex.co/demo?id=e0950fbf-9bb5-44ba-88f8-ea55dcc99531&pbads_preview=",
+    "prd": "http://embed.ex.co/demo?id=b84acd30-02f3-4c3e-80ca-af3c639e8c2b&pbads_preview="
+  },
+  "QuizStory": {
+    "default": "stories/item/3009aab3-fdfb-41f3-af40-749a184a0ead"
+  },
+  "PollGrid": {
+    "default": "https://stg-app.ex.co/stories/item/e0f59c74-e985-4c19-9d5e-ae64730350f3"
+  },
+  "PlaybuzzItemsStoriesStoryWith2Videos": {
+    "default": "stories/item/64728a63-969d-40e7-98f5-9d86958e419d",
+    "prd": "alexplbtst10/story-2-videos"
+  },
+  "ONOStory": {
+    "default": "stories/item/bcbbe211-3d12-432e-9d2a-6fdd7b6cd31a",
+    "prd": "stories/item/840c01f6-5c8e-41d9-84f7-af531ece192d"
+  },
+  "LegacyPQ": {
+    "default": "/eligms10/which-greek-god-did-you-have-an-affair-with-in-your-past-life"
+  },
+  "PlaybuzzItemsStoryWithFacebookVideo": {
+    "default": "stories/item/c2d02777-3d77-47c7-a2bd-4e6b9135ea7b",
+    "prd": "stories/item/6e0fcabf-b6f1-47dc-82b2-3ee1c4c951c4"
+  },
+  "EmbeddedItemsStoryWithFacebookVideo": {
+    "default": "https://playbuzz-cdn.s3.amazonaws.com/content/Automation/automation_tests/Playbuzz-testing.html",
+    "prd": "https://playbuzz-cdn.s3.amazonaws.com/content/Automation/automation_tests/Playbuzz-testing-prd.html"
+  },
+  "EmbeddedItemsStoriesStory_Trivia": {
+    "default": "http://plbz.co/129147-2/",
+    "prd": "http://plbz.co/129160-2/"
+  },
+  "EmbeddedItemsStories_youtubeMedia": {
+    "default": "https://stg-app.ex.co/stories/item/ba9f1f1f-69fa-4804-93fb-c7b097365f75",
+    "prd": "https://app.ex.co/stories/item/a11b1cdf-e68d-4d66-b91f-a229fcbc1c49"
+  },
+  "EmbeddedGettyImage": {
+    "default": "https://stg-app.ex.co/stories/item/4977da7f-d348-4f29-9127-0096467eb8bd",
+    "prd": "https://app.ex.co/stories/item/2a53bf40-a12e-415d-910b-eee8f26bd3a4"
+  },
+  "EmbeddedVideoCreator": {
+    "default": "https://stg-app.ex.co/stories/item/858253f5-1b5a-4891-a80a-a888d29d1770",
+    "prd": "https://app.ex.co/stories/item/fd51aef8-f38a-4c66-9c12-c2636b619c83"
+  },
+  "EmbeddedPlaySummary": {
+    "default": "https://stg-app.ex.co/stories/item/98c56811-8f1a-4bdb-bad8-9be1bffcec66"
+  },
+  "EmbeddedFlipCard": {
+    "default": "https://stg-app.ex.co/stories/item/92afc67c-a4dc-40bb-9f5e-99af5549203a",
+    "prd": "https://app.ex.co/stories/item/a86d78c5-1465-4f6e-894c-2a22141fb3f4"
+  },
+  "MonetizedPQ": {
+    "default": "https://stg-app.ex.co/stories/item/3009aab3-fdfb-41f3-af40-749a184a0ead?utm_source=automation&utm_medium=pblayout&new-site=true",
+    "prd": "https://app.ex.co/stories/item/8b68a98a-708d-4ba7-827b-e2545239e30b?utm_source=adwords.com&utm_medium=prom-t4-search&utm_campaign=otr&new-site=true"
+  },
+  "OrganicPQ": {
+    "default": "https://stg-app.ex.co/stories/item/3009aab3-fdfb-41f3-af40-749a184a0ead?new-site=true",
+    "prd": "https://app.ex.co/stories/item/8b68a98a-708d-4ba7-827b-e2545239e30b?new-site=true"
+  },
+  "EmbeddedItemsPersonalQuiz": {
+    "default": "https://stg-app.ex.co/stories/item/2b3fc923-c88b-4517-bfab-30d81a13929e"
+  },
+  "EmbeddedItemClosedTrivia": {
+    "default": "https://stg-app.ex.co/stories/item/5c36a3b3-17bd-4ab9-b276-77fd0c9d76c7"
+  },
+  "EmbeddedItemClosedTriviaInAlongPage": {
+    "default": "https://playbuzz-cdn.s3.amazonaws.com/content/Automation/automation_tests/long-page.html"
+  },
+  "PollOldClassicEmbedded": {
+    "default": "https://stg-app.ex.co/stories/item/02319e98-2e16-4bc4-87fb-6622c476bf7b"
+  },
+  "PollOldGridEmbedded": {
+    "default": "https://stg-app.ex.co/stories/item/e0f59c74-e985-4c19-9d5e-ae64730350f3"
+  },
+  "PollClassic": {
+    "default": "https://stg-app.ex.co/stories/item/7f4095aa-6c42-48e5-bdcc-aac90a63fd08"
+  },
+  "PollClassicEmbedded": {
+    "default": "https://stg-app.ex.co/stories/item/7f4095aa-6c42-48e5-bdcc-aac90a63fd08"
+  },
+  "PollCoverImgRoundResultCardCTA": {
+    "default": "https://stg-app.ex.co/stories/item/3e1b09af-14b6-4187-866c-67f4b7b94f55"
+  },
+  "PollCoverImgRoundResultCardCTAEmbedded": {
+    "default": "https://stg-app.ex.co/stories/item/3e1b09af-14b6-4187-866c-67f4b7b94f55"
+  },
+  "PollBackgroundImageSquareTwoResults": {
+    "default": "https://stg-app.ex.co/stories/item/eb666035-bc62-418f-9edd-8dcf5137adf1"
+  },
+  "PollBackgroundImageSquareTwoResultsEmbedded": {
+    "default": "https://stg-app.ex.co/stories/item/eb666035-bc62-418f-9edd-8dcf5137adf1"
+  },
+  "PollInHebrew": {
+    "default": "https://stg-app.ex.co/stories/item/fce3ff8f-2340-4ae5-9b97-b33163d6f9bb",
+    "prd": "https://app.ex.co/stories/item/44ff7806-dd38-4f86-a60e-aa8e8e41e710"
+  },
+  "PollDbUpdated": {
+    "default": "https://stg-app.ex.co/stories/item/e96f7102-9e43-4a06-beaf-88a465078ce1"
+  },
+  "MediaWithRankedList": {
+    "default": "https://stg-app.ex.co/stories/item/accd66a6-4e57-426d-94ab-038417e05153",
+    "prd": "https://app.ex.co/stories/item/9e05d6c6-052a-4099-a458-7b76a97934f6"
+  },
+  "MediaWithRankedListRefresh": {
+    "default": "https://stg-app.ex.co/stories/item/f3ada6a7-7c37-4fbf-b03d-5a6e3516cb94",
+    "prd": "https://app.ex.co/stories/item/3e71a943-2f6d-48bc-9cdf-5a220c131b53"
+  },
+  "MediaWithRankedListDb": {
+    "default": "https://stg-app.ex.co/stories/item/dcc550d0-86ca-4900-923c-1a001fcb3904"
+  },
+
+  "TriviaOnlyMeVisibility": {
+    "default": "https://stg-app.ex.co/stories/item/b39bc009-ad79-463e-bbbf-850f7a5c54a3",
+    "prd": "https://stg-app.ex.co/stories/item/29fc9907-ba94-4cce-aaf3-152853eb2cb6"
+  },
+
+  "VideoCreatorUrlEmbedded": {
+    "default": "https://stg-embed.ex.co/demo?id=858253f5-1b5a-4891-a80a-a888d29d1770&pbads_preview=",
+    "prd": "https://embed.ex.co/demo?id=c9fa12c6-91b2-428c-af43-b3ae3ec3b11d&pbads_preview="
+  },
+  "VideoCreatorVideoId": {
+    "default": "1118d24d-41ee-45b3-8064-11ea858c3cb9",
+    "prd": "3694fd5a-a6d3-4d39-8664-78ddd516fdea"
+  },
+  "MyPlaybuzz_URL": {
+    "default": "https://stg-app.ex.co/items/overview",
+    "prd": "https://app.ex.co/items/overview"
+  },
+  "QuizzesPage_URL": {
+    "default": "https://alpha.playbuzz.com/quizzes",
+    "prd": "https://www.playbuzz.com/quizzes"
+  },
+  "BetweenParticlesUrlEmbedded": {
+    "default": "http://stg-embed.ex.co/demo?id=528b8332-25ff-40f1-a92d-b9d6813c23c7&pbads_preview=",
+    "prd": "http://embed.ex.co/demo?id=51232826-ed77-4702-ae17-5b471f14ba61&pbads_preview="
+  },
+  "StartUrlEmbedded": {
+    "default": "http://stg-embed.ex.co/demo?id=3009aab3-fdfb-41f3-af40-749a184a0ead&pbads_preview=",
+    "prd": "http://embed.ex.co/demo?id=89e41c06-1a95-491d-8c6b-2171e06efe02&pbads_preview="
+  },
+  "VideoCreatorStory": {
+    "default": "https://stg-app.ex.co/stories/automationpermium10/story-2019-12-09-17-14-53-",
+    "prd": "https://app.ex.co/stories/automationpremium10/video-creator-test-do-not-remove"
+  },
+  "VideoCreatorDownloadRequest": {
+    "default": "https://stg-video-creator.ex.co/api/download-video",
+    "prd": "https://video-creator.ex.co/api/download-video"
+  }
+
+
+
+
+}

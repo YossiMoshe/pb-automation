@@ -1,0 +1,163 @@
+{
+  "embedded_stream_player_page_url": {
+    "default": "https://cdn.playbuzz.com/content/monetization/streamById?env={0}&id={1}",
+    "prd": "https://cdn.playbuzz.com/content/monetization/streamById?env={0}&id={1}"
+  },
+  "configuration_data_api": {
+    "default": "http://stg-mcd-config.playbuzz.com/api/player-config",
+    "prd": "http://mcd-config.playbuzz.com/api/player-config"
+  },
+  "configuration_data_api_v2": {
+    "default": "http://stg-mcd-config.playbuzz.com/api/v2/players",
+    "prd": "http://mcd-config.playbuzz.com/api/v2/players"
+  },
+  "player_config_merge_api": {
+    "default": "http://stg-mcd-config.playbuzz.com/api/player-config-merge",
+    "prd": "http://mcd-config.playbuzz.com/api/player-config-merge"
+  },
+  "dynamic_video_player_config_api": {
+    "default": "http://stg-mcd-config.playbuzz.com/api/dynamic-video/player-config",
+    "prd": "http://mcd-config.playbuzz.com/api/dynamic-video/player-config"
+  },
+  "library_page_url": {
+    "default": "https://stg-app.ex.co/videos#/library",
+    "prd": "https://app.ex.co/videos#/library"
+  },
+  "playlist_manager_page_url": {
+    "default": "https://stg-app.ex.co/videos#/playlist-manager",
+    "prd": "https://app.ex.co/videos#/playlist-manager"
+  },
+  "demo_page_url": {
+    "default": "http://stream.playbuzz.com/demo?environment=staging&id=",
+    "prd": "http://stream.playbuzz.com/demo?environment=production&id="
+  },
+  "stream_url": {
+    "default": "http://stg-stream.playbuzz.com/",
+    "prd": "http://stream.playbuzz.com/"
+  },
+  "stream_player_url": {
+    "default": "http://stg-stream.playbuzz.com/player/",
+    "prd": "http://stream.playbuzz.com/player/"
+  },
+  "dynamic_video_url": {
+    "default": "https://stg-dynamic-video.playbuzz.com/",
+    "prd": "https://dynamic-video.playbuzz.com/"
+  },
+  "revenue_report_url": {
+    "default": "https://stg-reports.playbuzz.com/api/v1/revenue",
+    "prd": "https://reports.playbuzz.com/api/v1/revenue"
+  },
+  "playlist_api": {
+    "default": "https://stg-mcd-playlist.playbuzz.com/playlist",
+    "prd": "https://mcd-playlist.playbuzz.com/playlist"
+  },
+  "playlist_v2_api": {
+    "default": "https://stg-mcd-playlist.playbuzz.com/api/v2/playlist",
+    "prd": "https://mcd-playlist.playbuzz.com/api/v2/playlist"
+  },
+  "user_playlist_id_api": {
+    "default": "https://stg-mcd-playlist.playbuzz.com/api/v2/user/%s/playlist",
+    "prd": "https://mcd-playlist.playbuzz.com/api/v2/user/%s/playlist"
+  },
+  "user_specific_playlist_id_api": {
+    "default": "http://stg-mcd-playlist.playbuzz.com/api/v2/user/%s/playlist/%s",
+    "prd": "http://mcd-playlist.playbuzz.com/api/v2/user/%s/playlist/%s"
+  },
+  "ads_standards_ads_txt_api": {
+    "default": "http://stg-ads-standards.playbuzz.com/api/v1/ads.txt/",
+    "prd": "http://ads-standards.playbuzz.com/api/v1/ads.txt/"
+  },
+  "ads_standards_sellers_api": {
+    "default": "http://stg-ads-standards.playbuzz.com/api/v1/sellers",
+    "prd": "http://ads-standards.playbuzz.com/api/v1/sellers"
+  },
+  "publisher_rates_url": {
+    "default": "http://stg-mcd-config.playbuzz.com/api/publishers/rates",
+    "prd": "http://mcd-config.playbuzz.com/api/publishers/rates"
+  },
+  "video_console_playlist_url": {
+    "default": "http://stg-video-console.playbuzz.com/api/v1/playlist/",
+    "prd": "http://video-console.playbuzz.com/api/v1/playlist/"
+  },
+  "events_player_id": {
+    "default": "ce064a38-457a-45da-8c55-a56ebba7de1b",
+    "prd": "ce064a38-457a-45da-8c55-a56ebba7de1b"
+  },
+  "events_sticky_player_id": {
+    "default": "95101fea-0583-4194-a51e-e730981afbab",
+    "prd": "95101fea-0583-4194-a51e-e730981afbab"
+  },
+  "connect_to_playlist_player_id": {
+    "default": "3c1c38af-49f1-4382-9297-7988af8f5969",
+    "prd": "3c1c38af-49f1-4382-9297-7988af8f5969"
+  },
+  "automation_publisher_id": {
+    "default": "59ca58d5fbaa0e001518d12a",
+    "prd": "5dd40b11b07f9e0013cd056a"
+  },
+  "automation_domain_id": {
+    "default": "59ca58ddc81bab0015f64ae2",
+    "prd": "5dd5460fb07f9e0013cd0570"
+  },
+  "rss_domain_id": {
+    "default": "5d09f2fee68237001284cbe4",
+    "prd": "5dd40cd581f343003b97cd2d"
+  },
+  "video_gallery_domain_id": {
+    "default": "5d3ef2a2b06bd000114c701b",
+    "prd": "5dd40cafc9c84d0014026134"
+  },
+  "video_gallery_player_id": {
+    "default": "3ba6cd10-9af2-473f-a215-cdbb021c7cb3",
+    "prd": "3ba6cd10-9af2-473f-a215-cdbb021c7cb3"
+  },
+  "config_service_player_id": {
+    "default": "064ca26e-12df-4dce-be02-48b66a43f751",
+    "prd": "064ca26e-12df-4dce-be02-48b66a43f751"
+  },
+  "video_console_player_id": {
+    "default": "8c92e1bb-c6a6-4bd6-b82b-23118d757008",
+    "prd": "8c92e1bb-c6a6-4bd6-b82b-23118d757008"
+  },
+  "rss_regenerate_player_id": {
+    "default": "5a3e6622-d8c1-4171-9ab4-5d6298a459cb",
+    "prd": "5a3e6622-d8c1-4171-9ab4-5d6298a459cb"
+  },
+  "stream_service_player_id": {
+    "default": "7dd1835e-79bb-4fde-a622-ff12c0ee5aec",
+    "prd": "7dd1835e-79bb-4fde-a622-ff12c0ee5aec"
+  },
+  "rss_player_id": {
+    "default": "e48303b9-377c-47a6-9ec7-bcbe878df616",
+    "prd": "e48303b9-377c-47a6-9ec7-bcbe878df616"
+  },
+  "rss_video_src_id": {
+    "default": "48303b9-377c-47a6-9ec7-bcbe878df616_1575364670255",
+    "prd": "48303b9-377c-47a6-9ec7-bcbe878df616_1574264607722"
+  },
+  "video_creator_player_id": {
+    "default": "3d4d2a42-52bf-444e-b180-8cc79e468ba6",
+    "prd": "3d4d2a42-52bf-444e-b180-8cc79e468ba6"
+  },
+  "default_automation_video_id": {
+    "default": "b630c203-331d-43e1-bf3d-d652efa25cbf",
+    "prd": "3694fd5a-a6d3-4d39-8664-78ddd516fdea"
+  },
+  "default_automation_video_title": {
+    "default": "Automation video 1",
+    "prd": "video creator automation test"
+  },
+  "video_id_to_appear_second_in_playlist": {
+    "default": "5f71b635-7781-48d3-ae08-9a43bf5b0fb3",
+    "prd": "8193cd63-576c-422d-8cf3-871a062e8cec"
+  },
+  "playlist_id": {
+    "default": "5d2ef73aa4dc82001635abdb",
+    "prd": "5dda4a72538e3e001714e007"
+  },
+  "player_without_placeholder_page": {
+    "default": "https://playbuzz-cdn.s3.amazonaws.com/content/Automation/automation_tests/player-no-placeholder.html",
+    "prd": "https://playbuzz-cdn.s3.amazonaws.com/content/Automation/automation_tests/player-no-placeholder-prd.html"
+  }
+}
+

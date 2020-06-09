@@ -1,0 +1,465 @@
+{
+  "utm_source": "automation",
+  "utm_medium": "pblayout",
+  "organic": {
+    "refresh": {
+      "desktop": {
+        "cap": {
+          "enabled": false,
+          "amount": 3
+        },
+        "interval": {
+          "enabled": false,
+          "seconds": 3,
+          "idle": 30
+        },
+        "engagement": {
+          "enabled": true,
+          "amount": 1
+        },
+        "excludePlacements": []
+      },
+      "mobile": {
+        "cap": {
+          "enabled": false,
+          "amount": 3
+        },
+        "interval": {
+          "enabled": false,
+          "seconds": 3,
+          "idle": 30
+        },
+        "engagement": {
+          "enabled": true,
+          "amount": 1
+        },
+        "excludePlacements": []
+      }
+    },
+    "desktop": {
+      "story": [
+        {
+          "placement": "ad-top-1",
+          "dfpName": "PlayBuzz_Story_ATF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-top-2",
+          "dfpName": "PlayBuzz_Story_BTF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-top-3",
+          "dfpName": "PlayBuzz_Story_BTF2_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-bottom-1",
+          "dfpName": "PlayBuzz_Story_BTF3_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250,300x600,160x600"
+        },
+        {
+          "placement": "ad-between-outbrain-units",
+          "dfpName": "PlayBuzz_Story_BTF_W728X90_Rec",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        }
+      ],
+      "pq": [
+        {
+          "placement": "ad-top-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_ATF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-top-2",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-top-3",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF2_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-bottom-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF3_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250,300x600,160x600"
+        },
+        {
+          "placement": "ad-between-outbrain-units",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_W728X90_Rec",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        }
+      ]
+    },
+    "mobile": {
+      "story": [
+        {
+          "placement": "ad-top-1",
+          "dfpName": "PlayBuzz_Story_ATF_M320X50",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50,320x100"
+        },
+        {
+          "placement": "ad-bottom-1",
+          "dfpName": "PlayBuzz_Story_BTF_M300X250_1",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50"
+        },
+        {
+          "placement": "ad-between-rec",
+          "dfpName": "PlayBuzz_Story_BTF_M300X250_Rec",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50"
+        },
+        {
+          "placement": "ad-share-bar-top",
+          "dfpName": "PlayBuzz_Story_BTF_M300X250_Share",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50",
+          "isInItem": true
+        }
+      ],
+      "pq": [
+        {
+          "placement": "ad-top-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_ATF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50,320x100"
+        },
+        {
+          "placement": "ad-share-bar-top",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_M300X250_Share",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250",
+          "isInItem": true
+        },
+        {
+          "placement": "ad-bottom-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_M300X250_1",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50"
+        },
+        {
+          "placement": "ad-between-rec",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_M300X250_Rec",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50"
+        }
+      ]
+    }
+  },
+  "utm": {
+    "refresh": {
+      "desktop": {
+        "cap": {
+          "enabled": false,
+          "amount": 3
+        },
+        "interval": {
+          "enabled": false,
+          "seconds": 3,
+          "idle": 30
+        },
+        "engagement": {
+          "enabled": true,
+          "amount": 1
+        },
+        "excludePlacements": []
+      },
+      "mobile": {
+        "cap": {
+          "enabled": false,
+          "amount": 3
+        },
+        "interval": {
+          "enabled": false,
+          "seconds": 3,
+          "idle": 30
+        },
+        "engagement": {
+          "enabled": true,
+          "amount": 1
+        },
+        "excludePlacements": []
+      }
+    },
+    "desktop": {
+      "story": [
+        {
+          "placement": "ad-top-1",
+          "dfpName": "PlayBuzz_Story_ATF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-top-2",
+          "dfpName": "PlayBuzz_Story_BTF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-top-3",
+          "dfpName": "PlayBuzz_Story_BTF2_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-bottom-1",
+          "dfpName": "PlayBuzz_Story_BTF3_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250,300x600,160x600"
+        },
+        {
+          "placement": "ad-between-outbrain-units",
+          "dfpName": "PlayBuzz_Story_BTF_W728X90_Rec",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        }
+      ],
+      "pq": [
+        {
+          "placement": "ad-top-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_ATF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-top-2",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-top-3",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF2_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-bottom-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF3_W300X250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250,300x600,160x600"
+        },
+        {
+          "placement": "ad-between-outbrain-units",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_W728X90_Rec",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "728x90"
+        },
+        {
+          "placement": "ad-top-banner-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_ATF_W728X90",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "728x90"
+        },
+        {
+          "placement": "ad-left-side-rail",
+          "dfpName": "PlayBuzz_PersonalityQuiz_LEFT_W160x600",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "160x600"
+        },
+        {
+          "placement": "ad-author-details-banner-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_ATF_W728X90_Share",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "728x90"
+        }
+      ]
+    },
+    "mobile": {
+      "story": [
+        {
+          "placement": "ad-top-1",
+          "dfpName": "PlayBuzz_Story_ATF_M320X50",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50,320x100"
+        },
+        {
+          "placement": "ad-bottom-1",
+          "dfpName": "PlayBuzz_Story_BTF_M300X250_1",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-share-bar-top",
+          "dfpName": "PlayBuzz_Story_BTF_M300X250_Share",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250",
+          "isInItem": true
+        },
+        {
+          "placement": "ad-between-rec",
+          "dfpName": "PlayBuzz_Story_BTF_M300X250_Rec",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        }
+      ],
+      "pq": [
+        {
+          "placement": "ad-top-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_ATF_M320X50",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "320x50,320x100"
+        },
+        {
+          "placement": "ad-bottom-1",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_M300X250_1",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-share-bar-top",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_M300X250_Share",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250",
+          "isInItem": true
+        },
+        {
+          "placement": "ad-between-rec",
+          "dfpName": "PlayBuzz_PersonalityQuiz_BTF_M300X250_Rec",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250"
+        },
+        {
+          "placement": "ad-in-question",
+          "dfpName": "Playbuzz_mobile_inquestion_300x250",
+          "refresh": {
+            "type": "engagement",
+            "interval": 1
+          },
+          "size": "300x250",
+          "isInItem": true
+        }
+      ]
+    }
+  }
+}

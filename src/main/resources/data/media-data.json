@@ -1,0 +1,17 @@
+{
+  "ImageLinkPNG": {
+    "default": "https://cdn.playbuzz.com/content/images/logo-big.png"
+  },
+  "ImageLinkJPG": {
+    "default": "https://image.ibb.co/eBXcFv/2806223.jpg"
+  },
+  "ImageLinkGIF": {
+    "default": "https://media.giphy.com/media/3o7WIErHxnh3obo1s4/giphy.gif"
+  },
+  "FacebookPost": {
+    "default": "https://www.facebook.com/fitbit/photos/390606440963546/2637763569581144"
+  },
+  "YouTubeVideo": {
+    "default": "https://www.youtube.com/watch?v=BBCBshZsyxU"
+  }
+}

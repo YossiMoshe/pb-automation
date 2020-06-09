@@ -1,0 +1,15 @@
+{
+  "LinkPlan": {
+    "default": "http://stg-saas-admin.playbuzz.local/api/account/%s/plan",
+    "prd": "http://saas-admin.playbuzz.local/api/account/%s/plan"
+  },
+  "LinkUser": {
+    "default": "http://stg-saas-admin.playbuzz.local/api/account/%s/user",
+    "prd": "http://saas-admin.playbuzz.local/api/account/%s/user"
+  },
+
+  "UserByEmail": {
+    "default": "http://stg-saas-admin.playbuzz.local/api/users?type=email&input=%s",
+    "prd": "http://saas-admin.playbuzz.local/api/users?type=email&input=%s"
+  }
+}

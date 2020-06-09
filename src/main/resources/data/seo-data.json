@@ -1,0 +1,26 @@
+{
+  "SEO_URL": {
+    "default": "http://stg-items-seo.playbuzz.com/%s/isSeo?parentHost=%s"
+  },
+
+  "PARTNER_URL": {
+    "default": "http://stg-items-seo.playbuzz.com/isPartner/%s",
+    "prd": "http://items-seo.playbuzz.com/isPartner/%s"
+  },
+  "ACCOUNT_BY_NAME_URL": {
+    "default": "http://stg-items-seo.playbuzz.com/accountByName/",
+    "prd": "http://items-seo.playbuzz.com/accountByName/"
+  },
+  "ACCOUNT_URL": {
+    "default": "http://stg-items-seo.playbuzz.com/account/",
+    "prd": "http://items-seo.playbuzz.com/account/"
+  },
+  "DOMAIN_URL": {
+    "default": "http://stg-items-seo.playbuzz.com/domain/",
+    "prd": "http://items-seo.playbuzz.com/domain/"
+  },
+  "SEO_ACCOUNT_ID": {
+    "default": "A1D77720-481F-11EA-A45E-57E36A65FA29",
+    "prd": "AF3AB850-0BA2-11EA-9ED7-C1CDC59759EE"
+  }
+}

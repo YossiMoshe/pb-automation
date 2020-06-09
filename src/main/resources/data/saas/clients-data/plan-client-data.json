@@ -1,0 +1,6 @@
+{
+  "PlanById": {
+    "default": "http://stg-plan.playbuzz.local/plan/",
+    "prd": "http://plan.playbuzz.local/plan/"
+  }
+}

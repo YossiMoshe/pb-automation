@@ -1,0 +1,31 @@
+{
+  "key-01" : "value-01",
+  "default": "default-value",
+  "array-01": [
+    "one",
+    "two",
+    "three"
+  ],
+  "object-01": {
+    "id": 123456,
+    "name": "Tom"
+  },
+  "array-02": [
+    {
+      "id": 1,
+      "name": "one"
+    },
+    {
+      "id": 2,
+      "name": "Two"
+    },
+    {
+      "id": 3,
+      "name": "Three"
+    }
+  ],
+  "nested": {
+    "default": "default-value",
+    "non-default": "non-default-value"
+  }
+}

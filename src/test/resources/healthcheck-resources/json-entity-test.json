@@ -1,0 +1,11 @@
+{
+  "user": {
+    "id": 123456,
+    "name": "Alex",
+    "children": [
+      "Selenium",
+      "Chrome",
+      "C#"
+    ]
+  }
+}

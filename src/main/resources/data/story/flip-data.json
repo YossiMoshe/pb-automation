@@ -1,0 +1,26 @@
+{
+  "FC_EXP_URL": {
+    "default": "https://playbuzz-cdn.s3.amazonaws.com/content/Automation/automation_tests/embed_fc_experience_heb.html",
+    "prd": ""
+  },
+
+  "FC_DFP": {
+    "default": "https://app.ex.co/stories/mkcitizen10/northampton-vs-mk-dons?pbads_preview=Flip_experience_test",
+    "prd": ""
+  },
+
+  "FC_ITEM": {
+    "default": "https://stg-app.ex.co/stories/item/806ed37d-23b7-4f0b-a973-e498374f6305",
+    "prd": "https://app.ex.co/stories/item/69438870-9748-417d-94e8-dd8c16418c34"
+  },
+
+  "FC_EMBED": {
+    "default": "https://stg-app.ex.co/stories/item/806ed37d-23b7-4f0b-a973-e498374f6305",
+    "prd": "https://app.ex.co/stories/item/69438870-9748-417d-94e8-dd8c16418c34"
+  },
+
+  "FC_EDIT_ITEM_URL": {
+    "default": "https://stg-app.ex.co/create/item/f27e06f8-d9f6-49b0-ac14-6a44a1556310/edit",
+    "prd": ""
+  }
+}

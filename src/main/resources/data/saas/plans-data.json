@@ -1,0 +1,10 @@
+{
+  "ExistingUserTrialPlanId": {
+    "default": "5cf774a833a3675a3ee9bb73",
+    "prd": "5cf3ae596ca04b67592e0603"
+  },
+  "NewUserTrialPlanId": {
+    "default": "5d22ef305bf3ef7feb390bad",
+    "prd": "5cf3ae596ca04b67592e0603"
+  }
+}

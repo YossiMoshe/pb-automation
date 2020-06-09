@@ -1,0 +1,15 @@
+{
+  "AccountByUserId": {
+    "default": "http://stg-saas-admin.playbuzz.local/api/user/%s/account",
+    "prd": "http://saas-admin.playbuzz.local/api/user/%s/account"
+  },
+
+  "DeleteAccount": {
+    "default": "http://stg-salesforce.playbuzz.local/domain/%s",
+    "prd": "http://salesforce.playbuzz.local/domain/%s"
+  }
+
+
+
+
+}

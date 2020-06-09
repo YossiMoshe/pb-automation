@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration packages="com.coralogix.sdk.appenders">
+    <Appenders>
+        <Coralogix name="Coralogix" companyId="Playbuzz" privateKey="617910e7-9284-8a0f-a8da-95dbab18e6cd"
+                   applicationName="ui-automation" subSystemName="test">
+        </Coralogix>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p [%t]: Message: %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef  ref="Coralogix"/>
+            <AppenderRef  ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

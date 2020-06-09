@@ -1,0 +1,6 @@
+{
+  "myPlaybuzz": {
+    "default": "https://stg-app.ex.co/items",
+    "prd": "https://app.ex.co/items/overview"
+  }
+}

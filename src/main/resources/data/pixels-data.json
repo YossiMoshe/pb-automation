@@ -1,0 +1,27 @@
+{
+  "PQ_EXP": {
+    "default": "https://stg-element-viewer.ex.co/experience-html?id=4f850fb5-6357-414b-a15b-e85b3d4e4594",
+    "prd": "https://element-viewer.playbuzz.com/experience-html?id=566d6fd7-2cd1-4d38-8db2-48f4fe96a63e"
+  },
+  "POLL_EXP": {
+    "default": "https://stg-element-viewer.ex.co/experience-html?id=d960f617-f257-4d00-a2f5-0ddb5a74ed8a",
+    "prd": "https://element-viewer.playbuzz.com/experience-html?id=296234b3-e63e-4189-82de-4b74cde87370"
+  },
+  "FLIPCARD_EXP": {
+    "default": "https://stg-element-viewer.ex.co/experience-html?id=3f59e8fd-c64b-4a9a-ba0a-94796b0d21a6",
+    "prd": ""
+  },
+  "PQ_STORY": {
+    "default": "https://stg-app.ex.co/stories/item/91ec09cb-e2a2-41fc-bb3f-4bc6f730b307",
+    "prd": "http://embed.playbuzz.com/demo?id=055999a9-432f-43c3-b059-1d5fe8a0a81d"
+  },
+  "POLL_STORY": {
+    "default": "https://stg-app.ex.co/stories/item/de1a33da-e0d7-4fb8-bc49-e4d184f74054",
+    "prd": "https://app.ex.co/stories/item/a902b52a-8410-41e7-abdb-f50aa825dcea"
+  },
+  "FLIPCARD_STORY": {
+    "default": "https://stg-app.ex.co/stories/item/6c84fef0-311a-436a-a670-b56e1e8af748",
+    "prd": "https://app.ex.co/stories/item/132e932b-2d0e-4a7a-a868-8be17de33755"
+  }
+
+}

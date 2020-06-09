@@ -1,0 +1,23 @@
+{
+  "plan1": {
+    "default": "5d1c64905bf3ef7febbcdc51",
+    "prd": ""
+  },
+  "plan2": {
+    "default": "5d1c63445bf3ef7febbcc337",
+    "prd": ""
+  },
+  "plan3": {
+    "default": "5d1c64315bf3ef7febbcd555",
+    "prd": ""
+  },
+  "plan4": {
+    "default": "5d275c0c5bf3ef7feb8c6570",
+    "prd": ""
+  },
+
+  "saas_professional": {
+    "default": "5d22ef305bf3ef7feb390bad",
+    "prd": ""
+  }
+}

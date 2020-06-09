@@ -1,0 +1,10 @@
+{
+  "DeleteLinkBetweenPBToSF": {
+    "default": "http://stg-authorization.playbuzz.local/permission/user/%s/account",
+    "prd": "http://authorization.playbuzz.local/permission/user/%s/account"
+  },
+  "RegisterUrl": {
+    "default": "https://stg-authentication.playbuzz.com/register",
+    "prd": "https://authentication.playbuzz.com/register"
+  }
+}

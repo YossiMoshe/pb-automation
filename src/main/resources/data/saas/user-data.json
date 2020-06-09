@@ -1,0 +1,182 @@
+{
+  "PbAdmin": {
+    "stg": {
+      "user": "hanan.avramovich+107@playbuzz.com",
+      "password": "Password1!"
+    },
+    "prd": {
+      "user": "eran.amir+555@playbuzz.com",
+      "password": "666beast"
+    }
+  },
+  "PlaybuzzRegular": {
+    "stg": {
+      "user": "eran.amir+23@playbuzz.com",
+      "password": "f31c986b3996"
+    },
+    "prd": {
+      "user": "eran.amir+79@playbuzz.com",
+      "password": "55555abc"
+    }
+  },
+  "PlaybuzzDirectCredentialsPreview": {
+    "stg": {
+      "user": "alexpreview39@gmail.com",
+      "password": "1qazxsw2"
+    },
+    "prd": {
+      "user": "alexpreview39@gmail.com",
+      "password": "preview12"
+    }
+  },
+  "CreatorUser": {
+    "stg": {
+      "user": "creatoruser10@gmail.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "creatoruser11@gmail.com",
+      "password": "1qazxsw21qazxsw21"
+    }
+  },
+  "ProUser": {
+    "stg": {
+      "user": "pro_user@gmail.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "pro_user@playbuzz.com",
+      "password": "12345678"
+    }
+  },
+  "EnterpriseUser": {
+    "stg": {
+      "user": "enterprise_user@gmail.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "enterprise_user@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "TrialUser": {
+    "stg": {
+      "user": "trialUser@gmail.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "trial_user@playbuzz.com",
+      "password": "12345678"
+    }
+  },
+  "CustomizedUser": {
+    "stg": {
+      "user": "cus_user@gmail.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "cus_user@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "UpgradeUser": {
+    "stg": {
+      "user": "upgrade_user@gmail.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "upgrade_user@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "PaymentUser": {
+    "stg": {
+      "user": "payment_user@gmail.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "payment_user@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "TrialEnded": {
+    "stg": {
+      "user": "trialEnded@playbuzz.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "trialEnded@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "EventUser": {
+    "stg": {
+      "user": "event_user@playbuzz.com",
+      "password": "12345678"
+    },
+    "prd": {
+      "user": "event_user@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "ChromeUser": {
+    "stg": {
+      "user": "chrome_stg@gmail.com",
+      "password": "chrome123"
+    },
+    "prd": {
+      "user": "chrome_prd@gmail.com",
+      "password": "444beast"
+    }
+  },
+  "FirefoxUser": {
+    "stg": {
+      "user": "firefox_stg@gmail.com",
+      "password": "firefox123"
+    },
+    "prd": {
+      "user": "firefox_prd@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "SafariUser": {
+    "stg": {
+      "user": "safari_stg@gmail.com",
+      "password": "safari123"
+    },
+    "prd": {
+      "user": "safari_prd@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "PBForReset_Username": {
+    "stg": {
+      "user": "playbuzzAutomation+515@gmail.com",
+      "password": ""
+    },
+    "prd": {
+      "user": "playbuzzAutomation+515@gmail.com",
+      "password": ""
+    }
+  },
+  "PremiumUser": {
+    "stg": {
+      "user": "permiumUser@ex.co",
+      "password": "41eabf23f1ee"
+    },
+    "prd": {
+      "user": "permiumUser@playbuzz.com",
+      "password": "444beast"
+    }
+  },
+  "ExcoResetPasswordUser": {
+    "stg": {
+      "user": "resetUserStg@gmail.com",
+      "password": "a123456a@"
+    },
+    "prd": {
+      "user": "resetUserPrd@gmail.com",
+      "password": "a123456a@"
+    }
+  }
+}

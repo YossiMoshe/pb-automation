@@ -1,0 +1,26 @@
+{
+  "CancelUrl": {
+    "default": "https://stg-app.ex.co/billing/cancel",
+    "prd": ""
+  },
+  "PaymentUrl": {
+    "default": "https://stg-app.ex.co/billing/payment",
+    "prd": "https://app.ex.co/billing/payment"
+  },
+  "BillingUrl": {
+    "default": "https://stg-app.ex.co/billing",
+    "prd": "https://app.ex.co/billing"
+  },
+  "InvoicesUrl": {
+    "default": "https://stg-app.ex.co/billing/invoices",
+    "prd": "https://app.ex.co/billing/invoices"
+  },
+  "updatePaymentUrl": {
+    "default": "https://stg-app.ex.co/billing/updatePaymentMethod",
+    "prd": "https://app.ex.co/billing/updatePaymentMethod"
+  },
+  "pricingUrl": {
+    "default": "https://ex.co/pricing/?v=2",
+    "prd": "https://ex.co/pricing/?v=2"
+  }
+}

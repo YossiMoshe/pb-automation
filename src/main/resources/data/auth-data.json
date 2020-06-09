@@ -1,0 +1,33 @@
+{
+  "Exco_URL": {
+    "default": "https://ex.co/",
+    "prd":"https://ex.co/"
+  },
+
+  "Login_URL": {
+    "default": "https://stg-login.ex.co/",
+    "prd": "https://login.ex.co/"
+  },
+  "SignUp_URL": {
+    "default": "https://stg-login.ex.co/signup",
+    "prd": "https://login.ex.co/signup"
+  },
+  "OnlineTerms_URL": {
+    "default": "https://alpha.playbuzz.com/OnlineTerms",
+    "prd": "https://www.playbuzz.com/OnlineTerms"
+  },
+  "PrivacyPolicy_URL": {
+    "default": "https://alpha.playbuzz.com/PrivacyPolicy",
+    "prd": "https://www.playbuzz.com/PrivacyPolicy"
+  },
+  "HomePage_URL": {
+    "default": "https://stg-app.ex.co/create/choose",
+    "prd": "https://app.ex.co/create/choose"
+  },
+  "AccessToken_URL": {
+    "default": "http://authentication.playbuzz.com/account/accessToken"
+  },
+  "ApiManagementSubscribe_URL": {
+    "default": "http://api-management.playbuzz.local/account/{0}/subscribe"
+  }
+}

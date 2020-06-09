@@ -1,0 +1,18 @@
+{
+  "EditorURL": {
+    "default": "https://stg-app.ex.co/create/new/edit",
+    "prd": "https://app.ex.co/create/new/edit"
+  },
+  "CreatorURL": {
+    "default": "https://stg-app.ex.co/create/choose",
+    "prd": "https://app.ex.co/create/choose"
+  },
+  "PreviewURL": {
+    "default": "https://stg-app.ex.co/create/new/preview",
+    "prd": "https://app.ex.co/create/new/preview"
+  },
+  "AnalyticsURL": {
+    "default": "https://stg-app.ex.co/analytics",
+    "prd": "https://app.ex.co/analytics"
+  }
+}

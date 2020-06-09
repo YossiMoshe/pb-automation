@@ -1,0 +1,15 @@
+{
+  "Authentication": {
+    "default": "https://stg-authentication.ex.co/login",
+    "prd": "https://login.ex.co/api/login"
+  },
+
+  "OriginUrl": {
+    "default": "https://stg-login.ex.co",
+    "prd": "https://login.ex.co"
+  },
+
+  "ForgotPassword": {
+    "default": "https://authentication.playbuzz.com/forgotPassword"
+  }
+}

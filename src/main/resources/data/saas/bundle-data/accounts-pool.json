@@ -1,0 +1,22 @@
+{
+  "account_for_plan_1": {
+    "default": "0010J000027hO3WQAU",
+    "prd": ""
+  },
+  "account_for_plan_2": {
+    "default": "0010J000027hO3MQAU",
+    "prd": ""
+  },
+  "account_for_plan_3": {
+    "default": "0010J000027hO2YQAU",
+    "prd": ""
+  },
+  "account_for_plan_4": {
+    "default": "0010J000027hO2JQAU",
+    "prd": ""
+  },
+  "account_for_professional": {
+    "default": "0010J00002AcMBcQAN",
+    "prd": ""
+  }
+}

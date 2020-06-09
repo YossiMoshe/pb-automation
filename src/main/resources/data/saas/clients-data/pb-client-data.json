@@ -1,0 +1,6 @@
+{
+  "UnlinkUser": {
+    "default": "http://stg-account.playbuzz.local/account/%s/user/%s",
+    "prd": "http://account.playbuzz.local/account/%s/user/%s"
+  }
+}

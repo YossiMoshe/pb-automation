@@ -1,0 +1,153 @@
+{
+  "Plan1": {
+    "Company": "Maariv",
+    "Users": {
+      "Admins": {
+        "default": [
+          {
+            "email": "admin1_stg@gmail.com",
+            "password": "adm_stg_123"
+          },
+          {
+            "email": "admin2_stg@gmail.com",
+            "password": "adm_stg_123"
+          }
+        ],
+        "prd": [
+          {
+            "email": "admin1_prd@gmail.com",
+            "password": "amd_prd_123"
+          },
+          {
+            "email": "admin2_prd@gmail.com",
+            "password": "amd_prd_123"
+          }
+        ]
+      },
+      "Regulars": {
+        "default": [
+          {
+            "email": "regular1_stg@gmail.com",
+            "password": "reg_stg_123"
+          },
+          {
+            "email": "regular2_stg@gmail.com",
+            "password": "reg_stg_123"
+          }
+        ],
+        "prd": [
+          {
+            "email": "regular1_prd@gmail.com",
+            "password": "reg_prd_123"
+          },
+          {
+            "email": "regular2_prd@gmail.com",
+            "password": "reg_prd_123"
+          }
+        ]
+      }
+    }
+  },
+  "Plan2": {
+    "Company": "Ynet",
+    "Users": {
+      "Admins": {
+        "default": [
+          {
+            "email": "admin3_stg@gmail.com",
+            "password": "adm_stg_123"
+          }
+        ],
+        "prd": [
+          {
+            "email": "",
+            "password": ""
+          }
+        ]
+      },
+      "Regulars": {
+        "default": [
+          {
+            "email": "regular3_stg@gmail.com",
+            "password": "reg_stg_123"
+          }
+        ],
+        "prd": [
+          {
+            "email": "",
+            "password": ""
+          }
+        ]
+      }
+    }
+  },
+  "Plan3": {
+    "Company": "Samsung",
+    "Users": {
+      "Admins": {
+        "default": [
+          {
+            "email": "admin4_stg@gmail.com",
+            "password": "adm_stg_123"
+          }
+        ],
+        "prd": [
+          {
+            "email": "",
+            "password": ""
+          }
+        ]
+      },
+      "Regulars": {
+        "default": [
+          {
+            "email": "regular4_stg@gmail.com",
+            "password": "reg_stg_123"
+          }
+        ],
+        "prd": [
+          {
+            "email": "",
+            "password": ""
+          }
+        ]
+      }
+    }
+  },
+
+
+
+  "Plan4": {
+    "Company": "Dummy",
+    "Users": {
+      "Admins": {
+        "default": [
+          {
+            "email": "dummy_admin_stg@gmail.com",
+            "password": "dumm_stg_123"
+          }
+        ],
+        "prd": [
+          {
+            "email": "",
+            "password": ""
+          }
+        ]
+      },
+      "Regulars": {
+        "default": [
+          {
+            "email": "dummy_regular_stg@gmail.com",
+            "password": "dumm_stg_123"
+          }
+        ],
+        "prd": [
+          {
+            "email": "",
+            "password": ""
+          }
+        ]
+      }
+    }
+  }
+}
