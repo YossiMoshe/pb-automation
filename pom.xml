@@ -187,7 +187,7 @@
         <topq.difido-version>2.2.04-SNAPSHOT</topq.difido-version>
         <com.codeborne-version>5.2.8</com.codeborne-version>
         <com.jayway.awaitility-version>1.7.0</com.jayway.awaitility-version>
-        <org.apache.logging.log4j-version>2.11.1</org.apache.logging.log4j-version>
+        <org.apache.logging.log4j-version>2.13.3</org.apache.logging.log4j-version>
         <org.apache.logging.log4j-version>2.9.0</org.apache.logging.log4j-version>
         <com.coralogix.sdk-version>2.0.2</com.coralogix.sdk-version>
         <com.google.guava>23.0</com.google.guava>
