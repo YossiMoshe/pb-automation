@@ -193,7 +193,7 @@
         <com.google.guava>23.0</com.google.guava>
         <org.jsoup-version>1.11.3</org.jsoup-version>
         <joda-version>2.10</joda-version>
-        <mysql>5.1.44</mysql>
+        <mysql>8.0.28</mysql>
     </properties>
 
     <repositories>
