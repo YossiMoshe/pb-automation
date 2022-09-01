@@ -191,7 +191,7 @@
         <org.apache.logging.log4j-version>2.9.0</org.apache.logging.log4j-version>
         <com.coralogix.sdk-version>2.0.2</com.coralogix.sdk-version>
         <com.google.guava>23.0</com.google.guava>
-        <org.jsoup-version>1.11.3</org.jsoup-version>
+        <org.jsoup-version>1.15.3</org.jsoup-version>
         <joda-version>2.10</joda-version>
         <mysql>5.1.44</mysql>
     </properties>
